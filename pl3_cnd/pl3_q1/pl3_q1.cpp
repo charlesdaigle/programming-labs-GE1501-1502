@@ -49,5 +49,6 @@ int main() {
 
 	cout << "For x = " << get<0>(xiyi) << " , Euler's method estimates that y = " << get<1>(xiyi) << endl;
 	cout << "For x = " << get<0>(xiyi) << " , the exact solution finds that y = " << exact << endl;
+	
 	return 0;
 }
