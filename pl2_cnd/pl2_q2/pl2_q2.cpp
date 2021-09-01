@@ -8,7 +8,7 @@ bool isPrime(int num){
 // Checks if a number is prime.
 
 	if (num == 1){ 
-		return false; // special case
+		return false; // number one is a special case
 	}
 	else{
 		for (int i=2; i<=ceil(sqrt(num)); i++){ //only check factors up until the square root of the number to avoid repeating
